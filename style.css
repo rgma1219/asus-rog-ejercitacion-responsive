@@ -28,6 +28,12 @@ ul {
     align-items: center;
 }
 
+@media (max-width: 769px) {
+    .header__container {
+        padding: 0 16px;
+    }
+}
+
 .header__button-burguer {
     display: none;
 }
@@ -48,7 +54,7 @@ ul {
 }
 
 @media (max-width: 769px) {
-    .header__nav-list {
+    nav {
         display: none;
     }
 }
